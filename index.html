@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Memory Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Memory Game</h1>
+
+  <p>Score: <span id="score">0</span></p>
+  <p>Moves: <span id="moves">0</span></p>
+
+  <div id="gameBoard" class="game-board">
+    <div class="card" data-number="1">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">1</div>
+      </div>
+    </div>
+    <div class="card" data-number="2">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">2</div>
+      </div>
+    </div>
+    <div class="card" data-number="3">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">3</div>
+      </div>
+    </div>
+    <div class="card" data-number="4">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">4</div>
+      </div>
+    </div>
+    <div class="card" data-number="1">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">1</div>
+      </div>
+    </div>
+    <div class="card" data-number="2">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">2</div>
+      </div>
+    </div>
+    <div class="card" data-number="3">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">3</div>
+      </div>
+    </div>
+    <div class="card" data-number="4">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">4</div>
+      </div>
+    </div>
+  </div>
+
+  <button id="resetButton">Reset Game</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
